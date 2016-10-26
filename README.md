@@ -1,7 +1,7 @@
 # Udacity Feed Reader Project
 --------------------
 ### How to run the app
-To run the app just clone this repository and load the index.html file in your browser. At the bottom of the page you'll find all the tests that can be run by Jasmine ( a JavaScript testing framework). Tests are grouped into suites, each of which refers to a specific behavior that the app must satisfy.
+To run the app just click on this [link](https://pasquale-guglielmi.github.io/udacity-feed-reader/) clone this repository and load the index.html file in your browser. At the bottom of the page you'll find all the tests that can be run by Jasmine ( a JavaScript testing framework). Tests are grouped into suites, each of which refers to a specific behavior that the app must satisfy.
 To launch a specific test you can just click on it. There is also a link to run all tests together. If a test will fail then Jasmine will notify it to you.
 
 ### Project Overview
