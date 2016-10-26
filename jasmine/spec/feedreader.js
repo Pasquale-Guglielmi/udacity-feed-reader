@@ -19,7 +19,7 @@ $(function() {
                 expect(feed.url).toBeDefined();
                 expect(feed.url).not.toBe('');
             });
-         })
+         });
 
         /* Test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
@@ -30,7 +30,7 @@ $(function() {
                 expect(feed.name).toBeDefined();
                 expect(feed.name).not.toBe('');
             });
-         })
+         });
     });
 
     describe('The menu', function() {
@@ -117,7 +117,7 @@ $(function() {
          */
         afterEach(function() {
             loadFeed(0);
-        })
+        });
 
         it('when a new feed is loaded the content changes', function() {
             expect(currentFeedContent).not.toBe(newFeedContent);
