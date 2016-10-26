@@ -120,6 +120,10 @@ $(function() {
         });
 
         it('when a new feed is loaded the content changes', function() {
+            expect(currentFeedContent).toBeDefined();
+            expect(currentHeaderTitle).toBeDefined();
+            expect(newFeedContent).toBeDefined();
+            expect(newHeaderTitle).toBeDefined();
             expect(currentFeedContent).not.toBe(newFeedContent);
             expect(currentHeaderTitle).not.toBe(newHeaderTitle);
         });
